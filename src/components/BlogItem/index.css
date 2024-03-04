@@ -1,0 +1,66 @@
+/* Write your CSS code here */
+.blog-item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10px;
+  border: 1px solid #d3d3d3;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  width: 250px;
+  text-decoration: none;
+}
+.blog-item-link{
+text-decoration: none;
+}
+.item-image {
+  height: 150px;
+  width: 230px;
+}
+.avatar-img {
+  height: 20px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+.auth-details {
+  display: flex;
+  align-items: center;
+}
+.topic {
+  color: #8e8e8e;
+  font-size: 15px;
+  font-weight: 800;
+}
+.title {
+  color: #000000;
+}
+.author {
+  color: #8e8e8e;
+  font-weight: 600;
+}
+@media screen and (min-width: 768px) {
+  .blog-item-container {
+    width: 550px;
+    display: flex;
+    flex-direction: row;
+  }
+  .item-details-auth-con {
+    padding-left: 20px;
+  }
+  .avatar-img {
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    margin-right: 20px;
+  }
+  .topic {
+    font-size: 18px;
+  }
+  .title {
+    font-size: 21px;
+  }
+  .item-image {
+    height: 200px;
+  }
+}
